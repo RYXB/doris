@@ -1,0 +1,25 @@
+curl --location-trusted -u root:Fb@54321 -H "label:table1_20220318" -H "column_separator:," -T table1_data http://172.16.15.226:8030/api/example_db/table1/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:table2_20220318" -H "column_separator:|" -T table2_data http://172.16.15.226:8030/api/example_db/table2/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:date_20220318" -H "column_separator:\t" -T date.tbl http://172.16.15.226:8030/api/example_db/date/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:customer_20220318" -H "column_separator:\t" -T customer.tbl http://172.16.15.226:8030/api/example_db/customer/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:part_20220318" -H "column_separator:\t" -T part.tbl http://172.16.15.226:8030/api/example_db/part/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:supplier_20220318" -H "column_separator:\t" -T supplier.tbl http://172.16.15.226:8030/api/example_db/supplier/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_1_20220318" -H "column_separator:\t" -T lineorder_1.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_2_20220318" -H "column_separator:\t" -T lineorder_2.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_3_20220318" -H "column_separator:\t" -T lineorder_3.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_4_20220318" -H "column_separator:\t" -T lineorder_4.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_5_20220318" -H "column_separator:\t" -T lineorder_5.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:lineorder_6_20220318" -H "column_separator:\t" -T lineorder_6.tbl http://172.16.15.226:8030/api/example_db/lineorder/_stream_load
+
+curl --location-trusted -u root:Fb@54321 -H "label:m_dim_bizinfo" -H "column_separator:," -T m_dim_bizinfo_202203211401.csv http://172.16.15.226:8030/api/example_db/m_dim_bizinfo/_stream_load
