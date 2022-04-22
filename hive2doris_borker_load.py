@@ -1,7 +1,5 @@
 import os
 import sys
-import json
-import codecs
 import subprocess
 import time
 import traceback
