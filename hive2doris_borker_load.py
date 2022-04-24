@@ -125,8 +125,8 @@ if __name__ == '__main__':
                 printf("%s load run sucess!" % label_name)
                 break
             elif status_row[2] == 'LOADIND' or status_row[2] == 'PENDING':
-                printf("%s load running! sleep 5s" % label_name)
-                time.sleep(5)
+                printf("%s load running! sleep 1s" % label_name)
+                time.sleep(1)
             else:
                 printf("%s load run failed!" % label_name)
                 printf("ErrorMsg: %s " % status_row[7])
